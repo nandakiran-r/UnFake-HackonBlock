@@ -77,7 +77,7 @@ const Nft = () => {
                     <div className="card-name">
                       {cert.uri.name || "Certificate"}
                     </div>
-                    <a className="view-poly-btn" href={cert.polygon_url}>
+                    <a className="view-poly-btn" href={cert.uri.image} download={true} >
                       Download Certificate
                     </a>
                   </div>
